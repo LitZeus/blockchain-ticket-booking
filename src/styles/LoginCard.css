@@ -1,0 +1,66 @@
+/* src/styles/LoginCard.css */
+
+/* Card Container */
+.login-card {
+    max-width: 400px; /* Fixed width for the card */
+    height: 375px;
+    padding: 2rem;
+    border-radius: 1.5rem; /* Increased border-radius for rounded edges */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+    background-color: #1e1e1e; /* Background color matching the theme */
+    border: 1px solid rgba(255, 255, 255, 0.12); /* Border to match theme */
+    color: white; /* Text color to contrast with the dark background */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures spacing between elements */
+    gap: 1rem; /* Adds space between elements */
+}
+
+/* Card Title */
+.login-card-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1976d2; /* Primary color for title */
+    margin-bottom: 1.5rem; /* Adjusted margin */
+}
+
+/* Button Styles */
+.login-card-btn {
+    padding: 1rem 0; /* Increased padding for buttons */
+    font-size: 1.1rem; /* Slightly larger text for readability */
+    border-radius: 1rem; /* Rounded edges for buttons */
+    transition: all 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Admin Login Button */
+.admin-login-btn {
+    background-color: #1976d2; /* Primary blue color */
+    color: white;
+    font-weight: 600;
+    margin-bottom: 1.5rem; /* Adjusted margin between buttons */
+}
+
+.admin-login-btn:hover {
+    background-color: #1565c0; /* Darken the button on hover */
+}
+
+/* Attendee Login Button */
+.attendee-login-btn {
+    border: 2px solid #1976d2; /* Border with primary color */
+    color: #1976d2;
+    font-weight: 600;
+}
+
+.attendee-login-btn:hover {
+    background-color: #1976d2;
+    color: white; /* On hover, change text color to white */
+}
+
+/* Footer Text */
+.login-card-footer {
+    text-align: center;
+    font-size: 1rem; /* Slightly larger font size */
+    color: #b0bec5; /* Lighter text color */
+    margin-top: 1rem;
+}
